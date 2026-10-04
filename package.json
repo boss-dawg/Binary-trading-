@@ -1,0 +1,14 @@
+{
+  "name": "vertex-backend",
+  "version": "1.0.0",
+  "description": "Backend (REST + WebSocket + SQLite) for the Vertex trading terminal",
+  "main": "src/server.js",
+  "private": true,
+  "engines": { "node": ">=22.13" },
+  "scripts": {
+    "start": "node --no-warnings src/server.js",
+    "dev": "node --watch --no-warnings src/server.js",
+    "reset": "node --no-warnings scripts/reset.js",
+    "test": "node --no-warnings scripts/smoke-test.js"
+  }
+}
